@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "namaste", "good morning", "good evening"],
+      "responses": [
+        "Hey there! 👋 I'm your MetroGo Assistant. Ask me about fares, booking, your wallet, or lost items.",
+        "Hello! How can I help with your metro journey today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "talk later", "gtg"],
+      "responses": [
+        "Have a safe journey! 🚇",
+        "Bye! Come back anytime you need help."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thnx", "appreciate it"],
+      "responses": [
+        "You're welcome! Happy to help.",
+        "Anytime! Safe travels."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "what can you do", "options", "how does this work"],
+      "responses": [
+        "I can help you with: fares, booking tickets, your wallet, cancelling tickets, lost and found, and emergency contacts. Just ask naturally!"
+      ]
+    },
+    {
+      "tag": "booking",
+      "patterns": ["how to book", "book a ticket", "how do i book", "buy a ticket"],
+      "responses": [
+        "To book a ticket: go to the 'Book' page, pick your From and To stations, choose a payment method, and confirm. You'll get a QR-code ticket instantly! 🎫"
+      ]
+    },
+    {
+      "tag": "cancel_ticket",
+      "patterns": ["cancel my ticket", "how to cancel", "refund my ticket"],
+      "responses": [
+        "You can cancel a ticket from the 'My Tickets' page — just click 'Cancel Ticket' on any confirmed booking, and the fare gets refunded to your wallet automatically."
+      ]
+    },
+    {
+      "tag": "wallet_balance",
+      "patterns": ["wallet balance", "how much money do i have", "check my balance"],
+      "responses": [
+        "You can check your exact wallet balance on the 'Wallet' page — it's shown right at the top."
+      ]
+    },
+    {
+      "tag": "wallet_recharge",
+      "patterns": ["recharge wallet", "add money", "top up", "how to recharge"],
+      "responses": [
+        "To recharge your wallet: go to the 'Wallet' page, enter an amount, and click 'Add Money'. Your balance updates instantly."
+      ]
+    },
+    {
+      "tag": "lost_found",
+      "patterns": ["lost item", "lost my bag", "found something", "lost and found"],
+      "responses": [
+        "If you've lost something on the metro, please report it at the nearest station's help desk or through our Lost & Found page with the station and approximate time."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": ["emergency", "help me", "i need help urgently", "safety concern"],
+      "responses": [
+        "If this is a real emergency, please contact station staff immediately or call the Namma Metro helpline. Your safety comes first. 🚨"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm not quite sure I understood that. Try asking about fares, booking, your wallet, or say 'help' to see what I can do."
+      ]
+    }
+  ]
+}
